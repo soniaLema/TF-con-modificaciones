@@ -1,0 +1,148 @@
+body{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+font-size: 14px;
+background: url(../imagenes/nubes.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}    
+#contenedor{
+width: 890px;
+margin:0 auto;
+padding:0;
+display: flex;
+}
+.loguearse, .registrarse{
+background-color: rgba(235, 233, 234, 0.6);
+border-radius: 6px;
+padding: 20px;
+}
+/*PRIMER COLUMNA= LOGUEARSE PARA INGRESAR*/
+.loguearse{
+width: 200px;
+height: fit-content;
+margin-top: 25px;
+}
+img{
+width: 180px;
+margin:20px 0 20px 10px;}
+.login{
+margin-top:30px;
+}
+.login h2{
+width: 180px;
+}
+.login input{
+display: block;
+width: 180px;
+margin-top:20px;
+}
+#mapa{
+width: 70px;
+border:1px solid #d16525;
+margin:31px 0 20px 36px;
+padding:10px;
+}
+/*SEGUNDA COLUMNA - FORMULARIO PARA REGISTRARSE*/
+.registrarse{
+width: 570px;
+margin:25px 0 0 20px;
+}
+h2{
+width: 534px;
+margin:0 auto;
+text-align: center;
+margin-top: 10px;
+padding: 10px 10px;
+border-bottom:4px solid #ef7f1a;
+text-transform: uppercase; 
+font-weight: bold;
+letter-spacing: 1px;
+}
+fieldset{
+width:250px;
+margin: 10px 0 0 10px;
+padding:0 10px 15px 10px;
+float:left;
+border:1px solid #ef7f1a;
+border-radius: 4px;
+}
+#captcha{/*FALSO CAPTCHA*/
+width: 200px;
+height: auto;
+background-color: rgba(255, 255, 255, 0.5);
+float: left;
+margin: 60px 0 0 50px;
+padding-right: 9px;
+text-align:center;
+}
+legend{
+margin-top: 15px;
+font-weight: bold;
+letter-spacing: 1px;
+}
+h2, legend{
+color:#ef7f1a;
+}
+input{
+display: block;
+width: 230px;
+height: 30px;
+margin: 10px 0 0 10px;
+background:none;
+border:none;
+border-bottom: 1px solid #ffffff; 
+}
+#iNros, #iCodPost{
+display: inline;
+width: 82px;
+margin-left:29px;
+}
+#edad legend, #foto legend{
+margin:0 auto;
+}
+#edad p, #edad input, #foto input{
+display: inline;
+border:none;
+}
+#iFechaNac{
+width: 112px;
+margin:5px 0 0 4px;
+padding: 2px 0 3px 8px;
+}
+#iAnios{
+width: 17px;
+border:none;
+background:none;
+margin:0 1px 0 3px;
+}
+/*TODOS LOS BOTONES*/
+#usuPassw button{
+width:140px;
+}
+
+button{
+display:block;
+width:100px;
+height:42px;
+margin: 0 auto;
+margin-top: 20px;
+background-color: #ef7f1a;
+border:none;
+border-radius: 4px;
+color:white;
+font-size: 16px;
+font-weight: bold;
+letter-spacing: 1px;
+}
+button:hover{
+letter-spacing:2px;
+border:none;
+border-radius: 5px 50px / 50px 15px;
+box-shadow: 0 1px 3px 2px #a55713;
+}
+button:active, #limpiarForm:active{
+color:black;
+}    
